@@ -30,81 +30,108 @@
     <div class="w3-row">
         <div class="w3-col w3-container w3-blue" style="width:300px; height: 100vh;">
             <p>Text</p>
-            <button class="w3-btn w3-white w3-border w3-border-blue w3-round" onclick="w3.addStyle('.sf-task','display','block'); w3.addStyle('.sf-document','display','none')">Tasks</button>
+            <button class="w3-btn w3-white w3-border w3-border-blue w3-round"
+                onclick="w3.addStyle('.sf-type','display','block'); w3.addStyle('.sf-cat','display','block');">Overview</button>
+            <p>Text</p>
+            <button class="w3-btn w3-white w3-border w3-border-blue w3-round"
+                onclick="w3.addStyle('.sf-type','display','none'); w3.addStyle('.sf-type.task','display','block');">Tasks</button>
             <p>Text</p>
 
-            <button class="w3-btn w3-white w3-border w3-border-green w3-round-xlarge" onclick="w3.addStyle('.sf-task','display','none'); w3.addStyle('.sf-document','display','block')">Documents</button>
+            <button class="w3-btn w3-white w3-border w3-border-green w3-round-xlarge"
+                onclick="w3.addStyle('.sf-type','display','none'); w3.addStyle('.sf-type.document','display','block');">Documents</button>
             <p>Text</p>
 
-            <button class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large">Notes</button>
+            <button class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large"
+                onclick="w3.addStyle('.sf-type','display','none'); w3.addStyle('.sf-type.note','display','block');">Notes</button>
             <p>Text</p>
 
-            <button class="w3-button w3-yellow">Projects</button>
+            <button class="w3-button w3-yellow" onclick="w3.addStyle('.sf-cat','display','none'); w3.addStyle('.sf-cat.project','display','block');">Projects</button>
             <p>Text</p>
 
-            <button class="w3-button w3-purple">Business</button>
+            <button class="w3-button w3-purple" onclick="w3.addStyle('.sf-cat','display','none'); w3.addStyle('.sf-cat.business','display','block');">Business</button>
             <p>Text</p>
 
-            <button class="w3-button w3-indigo">Personal</button>
+            <button class="w3-button w3-teal" onclick="w3.addStyle('.sf-cat','display','none'); w3.addStyle('.sf-cat.personal','display','block');">Personal</button>
         </div>
         <div class="w3-rest w3-container w3-green" style="height: 100vh; padding-left: 0; padding-right: 0;">
             <div class=" w3-container w3-grey">
                 <h1>One two three</h1>
             </div>
             <div class="w3-row w3-red">
-                <div class="w3-col m12 l6 w3-indigo">
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-task">
-                            <p>Task</p>
-                        </div>
-                    </div>
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-document">
-                            <p>Document</p>
-                        </div>
-                    </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat project w3-col m9 l6">
+                    <p>Task</p>
+                    <h2 class="w3-yellow">Project</h2>
                 </div>
-                <div class="w3-col m12 l6 w3-indigo">
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-note">
-                            <p>Note</p>
-                        </div>
-                    </div>
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
-                            <p>w3-card</p>
-                        </div>
-                    </div>
-                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat project w3-col m9 l6">
+                    <p>Document</p>
+                    <h2 class="w3-yellow">Project</h2>
 
-            </div>
-            <div class="w3-row w3-red">
-                <div class="w3-col m12 l6 w3-indigo">
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-task">
-                            <p>Task</p>
-                        </div>
-                    </div>
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
-                            <p>w3-card</p>
-                        </div>
-                    </div>
                 </div>
-                <div class="w3-col m12 l6 w3-indigo">
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
-                            <p>w3-card</p>
-                        </div>
-                    </div>
-                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
-                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
-                            <p>w3-card</p>
-                        </div>
-                    </div>
-                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat personal w3-col m9 l6">
+                    <p>Note</p>
+                    <h2 class="w3-teal">Personal</h2>
 
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat business w3-col m9 l6">
+                    <p>Task</p>
+                    <h2 class="w3-purple">Business</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat personal w3-col m9 l6">
+                    <p>Document</p>
+                    <h2 class="w3-teal">Personal</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat project w3-col m9 l6">
+                    <p>Note</p>
+                    <h2 class="w3-yellow">Project</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat business w3-col m9 l6">
+                    <p>Task</p>
+                    <h2 class="w3-purple">Business</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat personal w3-col m9 l6">
+                    <p>Document</p>
+                    <h2 class="w3-teal">Personal</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat project w3-col m9 l6">
+                    <p>Note</p>
+                    <h2 class="w3-yellow">Project</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat business w3-col m9 l6">
+                    <p>Task</p>
+                    <h2 class="w3-purple">Business</h2>
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat personal w3-col m9 l6">
+                    <p>Document</p>
+                    <h2 class="w3-teal">Personal</h2>
+
+
+                </div>
+                <div
+                    class="sf-tw3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat business w3-col m9 l6">
+                    <p>Note</p>
+                    <h2 class="w3-purple">Business</h2>
+
+                </div>
             </div>
+
         </div>
     </div>
 </body>

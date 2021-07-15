@@ -397,4 +397,8 @@ w3.displayObject = function (id, data) {
     l = x.length;
     a.innerHTML = a.innerHTML.replace(r, result);
   }
+  w3.selectTasks = function () {
+    w3.addStyle('.sf-task','display','block');
+    w3.addStyle('.sf-document','display','none')
+  };
 };
