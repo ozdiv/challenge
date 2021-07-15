@@ -1,4 +1,3 @@
-/* W3.JS 1.04 April 2019 by w3schools.com */
 "use strict";
 var w3 = {};
 w3.hide = function (sel) {
@@ -140,10 +139,10 @@ w3.filterHTML = function(id, sel, filter) {
     b = a[i].querySelectorAll(sel);
     for (ii = 0; ii < b.length; ii++) {
       hit = 0;
-      if (b[ii].innerText.toUpperCase().indexOf(filter.toUpperCase()) > -1) {
+      if (b[ii].firstElementChild.innerText.toUpperCase().indexOf(filter.toUpperCase()) > -1) {
         hit = 1;
       }
-      c = b[ii].getElementsByTagName("*");
+      c = b[ii].firstElementChild.getElementsByTagName("*");
       for (iii = 0; iii < c.length; iii++) {
         if (c[iii].innerText.toUpperCase().indexOf(filter.toUpperCase()) > -1) {
           hit = 1;
