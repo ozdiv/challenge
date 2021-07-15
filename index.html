@@ -5,37 +5,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="js/w3.js"></script>
     <title>Challenge</title>
 </head>
 
 <body>
-    <div class="w3-row" >
-        <div class="w3-col w3-container w3-blue" style="width:300px; height: 100vh;">
-            <p>300px</p>
+
+    <div class="w3-row">
+        <div class="w3-col w3-container w3-light-grey" style="padding-left: 0; padding-right: 0;">
+            <div class="w3-col w3-container w3-red" style="width:300px;">
+                <h1>Logo</h1>
+            </div>
+
+            <div class="w3-rest w3-container w3-teal" style="padding-left: 0; padding-right: 0;">
+                <h1>Search</h1>
+            </div>
         </div>
-        <div class="w3-rest w3-container w3-green" style="height: 100vh;">
-            <div class="w3-row">
-                <div class="w3-half w3-container w3-red">
-                    <div class="w3-half">
-                        <div style="height:100px" class="w3-card w3-container w3-yellow w3-margin-bottom">
-                            <p>w3-card</p>
+    </div>
+    <div class="w3-row">
+        <div class="w3-col w3-container w3-blue" style="width:300px; height: 100vh;">
+            <p>Text</p>
+            <button class="w3-btn w3-white w3-border w3-border-blue w3-round" onclick="w3.addStyle('.sf-task','display','block'); w3.addStyle('.sf-document','display','none')">Tasks</button>
+            <p>Text</p>
+
+            <button class="w3-btn w3-white w3-border w3-border-green w3-round-xlarge" onclick="w3.addStyle('.sf-task','display','none'); w3.addStyle('.sf-document','display','block')">Documents</button>
+            <p>Text</p>
+
+            <button class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large">Notes</button>
+            <p>Text</p>
+
+            <button class="w3-button w3-yellow">Projects</button>
+            <p>Text</p>
+
+            <button class="w3-button w3-purple">Business</button>
+            <p>Text</p>
+
+            <button class="w3-button w3-indigo">Personal</button>
+        </div>
+        <div class="w3-rest w3-container w3-green" style="height: 100vh; padding-left: 0; padding-right: 0;">
+            <div class=" w3-container w3-grey">
+                <h1>One two three</h1>
+            </div>
+            <div class="w3-row w3-red">
+                <div class="w3-col m12 l6 w3-indigo">
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-task">
+                            <p>Task</p>
                         </div>
                     </div>
-                    <div class="w3-half">
-                        <div style="height:100px" class="w3-card w3-container w3-yellow w3-margin-bottom">
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-document">
+                            <p>Document</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m12 l6 w3-indigo">
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-note">
+                            <p>Note</p>
+                        </div>
+                    </div>
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
                             <p>w3-card</p>
                         </div>
                     </div>
                 </div>
-                <div class="w3-half w3-container w3-red">
-                    <div class="w3-half">
-                        <div style="height:100px" class="w3-card w3-container w3-yellow w3-margin-bottom">
+
+            </div>
+            <div class="w3-row w3-red">
+                <div class="w3-col m12 l6 w3-indigo">
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions sf-task">
+                            <p>Task</p>
+                        </div>
+                    </div>
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
                             <p>w3-card</p>
                         </div>
                     </div>
-                    <div class="w3-half">
-                        <div style="height:100px" class="w3-card w3-container w3-yellow w3-margin-bottom">
+                </div>
+                <div class="w3-col m12 l6 w3-indigo">
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
+                            <p>w3-card</p>
+                        </div>
+                    </div>
+                    <div class="w3-half" style="padding: 10px 10px 0px 10px">
+                        <div class="w3-card w3-container w3-yellow w3-margin-bottom sf-card-dimensions">
                             <p>w3-card</p>
                         </div>
                     </div>
