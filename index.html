@@ -8,176 +8,176 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/sfed.css">
+    <link rel="stylesheet" href="css/sf.css">
     <link rel="stylesheet" href="css/custom.css">
-    <script src="js/sfed.js"></script>
+    <script src="js/sf.js"></script>
     <title>Challenge</title>
 </head>
 
 <body>
 
-    <div class="sfed-row">
-        <div class="sfed-col sfed-container sfed-dark-grey" style="padding-left: 0; padding-right: 0;">
-            <div class="sfed-col sfed-container" style="width:300px;">
-                <div class="sf-circle sfed-light-grey sfed-half"></div>
-                <div class="sf-oval sfed-light-grey sfed-half"></div>
+    <div class="sf-row">
+        <div class="sf-col sf-container sf-dark-grey" style="padding-left: 0; padding-right: 0;">
+            <div class="sf-col sf-container" style="width:300px;">
+                <div class="sf-circle sf-light-grey sf-half"></div>
+                <div class="sf-oval sf-light-grey sf-half"></div>
             </div>
 
-            <div class="sfed-rest sfed-container sfed-white" style="padding: 20px 0px 0px 0px;">
+            <div class="sf-rest sf-container sf-white" style="padding: 20px 0px 0px 0px;">
                 <label class="sf-label">
-                    <input class="sf-input" oninput="sfed.filterHTML('.tiles-area', '.main-card', this.value)" placeholder="Search">
+                    <input class="sf-input" oninput="sf.filterHTML('.tiles-area', '.main-card', this.value)" placeholder="Search">
                 </label>
-                <div class="sf-notification sfed-right"></div>
+                <div class="sf-notification sf-right"></div>
             </div>
         </div>
     </div>
-    <div class="sfed-row">
-        <div class="sfed-col sfed-container sfed-blue" style="width:300px; height: 100vh;">
+    <div class="sf-row">
+        <div class="sf-col sf-container sf-blue" style="width:300px; height: 100vh;">
             <p> </p>
-            <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round"
-                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type','shown');">Overview</button>
+            <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type','shown');">Overview</button>
             <p> </p>
-            <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round"
-                onclick="sfed.addStyle('.sf-cat','display','inline-block'); sfed.addStyle('.sf-type','display','none'); sfed.addStyle('.sf-type.task','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type.task','shown');">Tasks</button>
+            <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.task','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.task','shown');">Tasks</button>
 
             <div>
 
-            <button class="sfed-btn sfed-white sfed-border sfed-border-green sfed-round-xlarge"
-                onclick="sfed.addStyle('.sf-cat','display','inline-block'); sfed.addStyle('.sf-type','display','none'); sfed.addStyle('.sf-type.document','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type.document','shown');">Documents</button>
+            <button class="sf-btn sf-white sf-border sf-border-green sf-round-xlarge"
+                onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.document','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.document','shown');">Documents</button>
             </div>
             <div>
-            <button class="sfed-btn sfed-white sfed-border sfed-border-red sfed-text-red sfed-round-large"
-                onclick="sfed.addStyle('.sf-cat','display','inline-block'); sfed.addStyle('.sf-type','display','none'); sfed.addStyle('.sf-type.note','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type.note','shown');">Notes</button>
+            <button class="sf-btn sf-white sf-border sf-border-red sf-text-red sf-round-large"
+                onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.note','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.note','shown');">Notes</button>
             </div>
             <hr>
             <div>
-                <button class="sfed-button sfed-yellow"
-                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','none'); sfed.addStyle('.sf-cat.project','display','inline-block'); sfed.removeClass('.sf-cat','shown'); sfed.addClass('.sf-cat.project','shown');">Projects</button>
+                <button class="sf-button sf-yellow"
+                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.project','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.project','shown');">Projects</button>
             </div>
 
-            <button class="sfed-button sfed-purple"
-                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','none'); sfed.addStyle('.sf-cat.business','display','inline-block'); sfed.removeClass('.sf-cat','shown'); sfed.addClass('.sf-cat.business','shown');">Business</button>
+            <button class="sf-button sf-purple"
+                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.business','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.business','shown');">Business</button>
                 <p> </p>
 
-            <button class="sfed-button sfed-teal"
-                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','none'); sfed.addStyle('.sf-cat.personal','display','inline-block'); sfed.removeClass('.sf-cat','shown'); sfed.addClass('.sf-cat.personal','shown');">Personal</button>
+            <button class="sf-button sf-teal"
+                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.personal','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.personal','shown');">Personal</button>
         </div>
-        <div class="sfed-rest sfed-container sfed-light-grey" style="height: 100vh; padding: 0px 0px 10px 0px;">
-            <div class="sfed-container sfed-light-grey" style="padding: 10px 0px 10px 20px;">
-                <div class="sf-plus sfed-right">
-                    <button class="sfed-btn sfed-border sfed-round-small">Create item</button>
+        <div class="sf-rest sf-container sf-light-grey" style="height: 100vh; padding: 0px 0px 10px 0px;">
+            <div class="sf-container sf-light-grey" style="padding: 10px 0px 10px 20px;">
+                <div class="sf-plus sf-right">
+                    <button class="sf-btn sf-border sf-round-small">Create item</button>
                 </div>
 
 
-                <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round"
-                    onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type','shown');">Overview</button>
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                    onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type','shown');">Overview</button>
 
-                <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round sf-type task"
-                    onclick="sfed.addStyle('.sf-type.shown.main-card','display','none'); sfed.addStyle('.sf-type.task.shown.main-card','display','inline-block');">Tasks</button>
-
-
-                <button class="sfed-btn sfed-white sfed-border sfed-border-green sfed-round-xlarge sf-type document"
-                    onclick="sfed.addStyle('.sf-type.shown.main-card','display','none'); sfed.addStyle('.sf-type.document.shown.main-card','display','inline-block');">Documents</button>
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round sf-type task"
+                    onclick="sf.addStyle('.sf-type.shown.main-card','display','none'); sf.addStyle('.sf-type.task.shown.main-card','display','inline-block');">Tasks</button>
 
 
-                <button class="sfed-btn sfed-white sfed-border sfed-border-red sfed-text-red sfed-round-large sf-type note"
-                    onclick="sfed.addStyle('.sf-type.shown.main-card','display','none'); sfed.addStyle('.sf-type.note.shown.main-card','display','inline-block');">Notes</button>
+                <button class="sf-btn sf-white sf-border sf-border-green sf-round-xlarge sf-type document"
+                    onclick="sf.addStyle('.sf-type.shown.main-card','display','none'); sf.addStyle('.sf-type.document.shown.main-card','display','inline-block');">Documents</button>
 
 
-                <button class="sfed-button sfed-yellow sf-cat project"
-                    onclick="sfed.addStyle('.sf-cat.shown.main-card','display','none'); sfed.addStyle('.sf-cat.project.shown.main-card','display','inline-block');">Projects</button>
+                <button class="sf-btn sf-white sf-border sf-border-red sf-text-red sf-round-large sf-type note"
+                    onclick="sf.addStyle('.sf-type.shown.main-card','display','none'); sf.addStyle('.sf-type.note.shown.main-card','display','inline-block');">Notes</button>
 
 
-                <button class="sfed-button sfed-purple sf-cat business"
-                    onclick="sfed.addStyle('.sf-cat.shown.main-card','display','none'); sfed.addStyle('.sf-cat.business.shown.main-card','display','inline-block');">Business</button>
+                <button class="sf-button sf-yellow sf-cat project"
+                    onclick="sf.addStyle('.sf-cat.shown.main-card','display','none'); sf.addStyle('.sf-cat.project.shown.main-card','display','inline-block');">Projects</button>
 
 
-                <button class="sfed-button sfed-teal sf-cat personal"
-                    onclick="sfed.addStyle('.sf-cat.shown.main-card','display','none'); sfed.addStyle('.sf-cat.personal.shown.main-card','display','inline-block');">Personal</button>
+                <button class="sf-button sf-purple sf-cat business"
+                    onclick="sf.addStyle('.sf-cat.shown.main-card','display','none'); sf.addStyle('.sf-cat.business.shown.main-card','display','inline-block');">Business</button>
+
+
+                <button class="sf-button sf-teal sf-cat personal"
+                    onclick="sf.addStyle('.sf-cat.shown.main-card','display','none'); sf.addStyle('.sf-cat.personal.shown.main-card','display','inline-block');">Personal</button>
             </div>
-            <div class="sfed-row sfed-light-grey tiles-area">
+            <div class="sf-row sf-light-grey tiles-area">
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type task sf-cat project sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type task sf-cat project sf-col m9 l6 main-card">
                     <p>Find Location</p>
-                    <h2 class="sfed-yellow">Project</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
+                    <h2 class="sf-yellow">Project</h2>
+                    <button class="sf-btn sf-border sf-round-small">Task</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type document sf-cat project sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type document sf-cat project sf-col m9 l6 main-card">
                     <p>File a request</p>
-                    <h2 class="sfed-yellow">Project</h2>
+                    <h2 class="sf-yellow">Project</h2>
 
-                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
+                    <button class="sf-btn sf-border sf-round-small">Document</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type note sf-cat personal sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type note sf-cat personal sf-col m9 l6 main-card">
                     <p>Evaluate the candidate</p>
-                    <h2 class="sfed-teal">Personal</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
+                    <h2 class="sf-teal">Personal</h2>
+                    <button class="sf-btn sf-border sf-round-small">Note</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type task sf-cat business sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type task sf-cat business sf-col m9 l6 main-card">
                     <p>Arrange speaker</p>
-                    <h2 class="sfed-purple">Business</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
+                    <h2 class="sf-purple">Business</h2>
+                    <button class="sf-btn sf-border sf-round-small">Task</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type document sf-cat business sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type document sf-cat business sf-col m9 l6 main-card">
                     <p>Module specs</p>
-                    <h2 class="sfed-purple">Business</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
+                    <h2 class="sf-purple">Business</h2>
+                    <button class="sf-btn sf-border sf-round-small">Document</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type note sf-cat project sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type note sf-cat project sf-col m9 l6 main-card">
                     <p>Book a dinner</p>
-                    <h2 class="sfed-yellow">Project</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
+                    <h2 class="sf-yellow">Project</h2>
+                    <button class="sf-btn sf-border sf-round-small">Note</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type task sf-cat business sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type task sf-cat business sf-col m9 l6 main-card">
                     <p>Negotiation</p>
-                    <h2 class="sfed-purple">Business</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
+                    <h2 class="sf-purple">Business</h2>
+                    <button class="sf-btn sf-border sf-round-small">Task</button>
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type document sf-cat personal sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type document sf-cat personal sf-col m9 l6 main-card">
                     <p>Drift checks</p>
-                    <h2 class="sfed-teal">Personal</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
+                    <h2 class="sf-teal">Personal</h2>
+                    <button class="sf-btn sf-border sf-round-small">Document</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type note sf-cat project sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type note sf-cat project sf-col m9 l6 main-card">
                     <p>The gate is open</p>
-                    <h2 class="sfed-yellow">Project</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
+                    <h2 class="sf-yellow">Project</h2>
+                    <button class="sf-btn sf-border sf-round-small">Note</button>
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type task sf-cat personal sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type task sf-cat personal sf-col m9 l6 main-card">
                     <p>Do the math</p>
-                    <h2 class="sfed-teal">Personal</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
+                    <h2 class="sf-teal">Personal</h2>
+                    <button class="sf-btn sf-border sf-round-small">Task</button>
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type document sf-cat personal sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type document sf-cat personal sf-col m9 l6 main-card">
                     <p>Prevalence</p>
-                    <h2 class="sfed-teal">Personal</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
+                    <h2 class="sf-teal">Personal</h2>
+                    <button class="sf-btn sf-border sf-round-small">Document</button>
 
 
                 </div>
                 <div
-                    class="sfed-card-4 sfed-round sfed-container sfed-white sfed-margin-bottom sf-card-dimensions sf-type note sf-cat business sfed-col m9 l6 main-card">
+                    class="sf-card-4 sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type note sf-cat business sf-col m9 l6 main-card">
                     <p>View essay</p>
-                    <h2 class="sfed-purple">Business</h2>
-                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
+                    <h2 class="sf-purple">Business</h2>
+                    <button class="sf-btn sf-border sf-round-small">Note</button>
 
                 </div>
             </div>

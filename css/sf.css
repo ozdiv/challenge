@@ -1,0 +1,38 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}
+html{overflow:hidden}h2{font-size:30px}
+h2{font-family: 'Roboto', sans-serif;font-weight:400;margin:10px 0}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.sf-btn,.sf-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.sf-btn,.sf-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.sf-btn:disabled,.sf-button:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
+.sf-btn:disabled:hover{box-shadow:none}
+.sf-container:after,.sf-container:before,.sf-row:after,.sf-row:before{content:"";display:table;clear:both}
+.sf-col,.sf-half{float:left;width:100%}
+@media (min-width:601px){.sf-half{width:49.99999%}
+.sf-col.m9{width:74.99999%}}
+@media (min-width:993px){.sf-col.l6{width:49.99999%}}
+.sf-rest{overflow:hidden}
+.sf-round-small{border-radius:2px}
+.sf-round{border-radius:4px}
+.sf-round-large{border-radius:8px}
+.sf-round-xlarge{border-radius:16px}
+.sf-container{padding:0.01em 16px}
+.sf-card-4{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.sf-border{border:1px solid #ccc!important}
+.sf-margin-bottom{margin-bottom:16px!important}
+.sf-right{float:right!important}
+.sf-button:hover{color:#000!important;background-color:#ccc!important}
+.sf-blue{color:#fff!important;background-color:#2196F3!important}
+.sf-purple{color:#fff!important;background-color:#9c27b0!important}
+.sf-teal{color:#fff!important;background-color:#009688!important}
+.sf-yellow{color:#000!important;background-color:#ffeb3b!important}
+.sf-white{color:#000!important;background-color:#fff!important}
+.sf-light-grey{color:#000!important;background-color:#f1f1f1!important}
+.sf-dark-grey{color:#fff!important;background-color:#616161!important}
+.sf-text-red{color:#f44336!important}
+.sf-border-blue{border-color:#2196F3!important}
+.sf-border-green{border-color:#4CAF50!important}
+.sf-border-red{border-color:#f44336!important}
