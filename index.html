@@ -8,167 +8,167 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/sfed.css">
     <link rel="stylesheet" href="css/custom.css">
-    <script src="js/w3.js"></script>
+    <script src="js/sfed.js"></script>
     <title>Challenge</title>
 </head>
 
 <body>
 
-    <div class="w3-row">
-        <div class="w3-col w3-container w3-light-grey" style="padding-left: 0; padding-right: 0;">
-            <div class="w3-col w3-container w3-red" style="width:300px;">
+    <div class="sfed-row">
+        <div class="sfed-col sfed-container sfed-light-grey" style="padding-left: 0; padding-right: 0;">
+            <div class="sfed-col sfed-container sfed-red" style="width:300px;">
                 <h1>Logo</h1>
             </div>
 
-            <div class="w3-rest w3-container w3-teal" style="padding-left: 0; padding-right: 0;">
+            <div class="sfed-rest sfed-container sfed-teal" style="padding-left: 0; padding-right: 0;">
                 <h1>Search</h1>
-                <input oninput="w3.filterHTML('.tiles-area', '.main-card', this.value)" placeholder="Search for names.." style="margin: 0px 0px 20px 20px;">
+                <input oninput="sfed.filterHTML('.tiles-area', '.main-card', this.value)" placeholder="Search for names.." style="margin: 0px 0px 20px 20px;">
             </div>
         </div>
     </div>
-    <div class="w3-row">
-        <div class="w3-col w3-container w3-blue" style="width:300px; height: 100vh;">
+    <div class="sfed-row">
+        <div class="sfed-col sfed-container sfed-blue" style="width:300px; height: 100vh;">
             <p>Text</p>
-            <button class="w3-btn w3-white w3-border w3-border-blue w3-round"
-                onclick="w3.addStyle('.sf-type','display','inline-block'); w3.addStyle('.sf-cat','display','inline-block'); w3.removeClass('.sf-type','shown'); w3.addClass('.sf-type','shown');">Overview</button>
+            <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round"
+                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type','shown');">Overview</button>
             <p>Text</p>
-            <button class="w3-btn w3-white w3-border w3-border-blue w3-round"
-                onclick="w3.addStyle('.sf-cat','display','inline-block'); w3.addStyle('.sf-type','display','none'); w3.addStyle('.sf-type.task','display','inline-block'); w3.removeClass('.sf-type','shown'); w3.addClass('.sf-type.task','shown');">Tasks</button>
-            <p>Text</p>
-
-            <button class="w3-btn w3-white w3-border w3-border-green w3-round-xlarge"
-                onclick="w3.addStyle('.sf-cat','display','inline-block'); w3.addStyle('.sf-type','display','none'); w3.addStyle('.sf-type.document','display','inline-block'); w3.removeClass('.sf-type','shown'); w3.addClass('.sf-type.document','shown');">Documents</button>
+            <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round"
+                onclick="sfed.addStyle('.sf-cat','display','inline-block'); sfed.addStyle('.sf-type','display','none'); sfed.addStyle('.sf-type.task','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type.task','shown');">Tasks</button>
             <p>Text</p>
 
-            <button class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large"
-                onclick="w3.addStyle('.sf-cat','display','inline-block'); w3.addStyle('.sf-type','display','none'); w3.addStyle('.sf-type.note','display','inline-block'); w3.removeClass('.sf-type','shown'); w3.addClass('.sf-type.note','shown');">Notes</button>
+            <button class="sfed-btn sfed-white sfed-border sfed-border-green sfed-round-xlarge"
+                onclick="sfed.addStyle('.sf-cat','display','inline-block'); sfed.addStyle('.sf-type','display','none'); sfed.addStyle('.sf-type.document','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type.document','shown');">Documents</button>
             <p>Text</p>
 
-            <button class="w3-button w3-yellow"
-                onclick="w3.addStyle('.sf-type','display','inline-block'); w3.addStyle('.sf-cat','display','none'); w3.addStyle('.sf-cat.project','display','inline-block'); w3.removeClass('.sf-cat','shown'); w3.addClass('.sf-cat.project','shown');">Projects</button>
+            <button class="sfed-btn sfed-white sfed-border sfed-border-red sfed-text-red sfed-round-large"
+                onclick="sfed.addStyle('.sf-cat','display','inline-block'); sfed.addStyle('.sf-type','display','none'); sfed.addStyle('.sf-type.note','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type.note','shown');">Notes</button>
             <p>Text</p>
 
-            <button class="w3-button w3-purple"
-                onclick="w3.addStyle('.sf-type','display','inline-block'); w3.addStyle('.sf-cat','display','none'); w3.addStyle('.sf-cat.business','display','inline-block'); w3.removeClass('.sf-cat','shown'); w3.addClass('.sf-cat.business','shown');">Business</button>
+            <button class="sfed-button sfed-yellow"
+                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','none'); sfed.addStyle('.sf-cat.project','display','inline-block'); sfed.removeClass('.sf-cat','shown'); sfed.addClass('.sf-cat.project','shown');">Projects</button>
             <p>Text</p>
 
-            <button class="w3-button w3-teal"
-                onclick="w3.addStyle('.sf-type','display','inline-block'); w3.addStyle('.sf-cat','display','none'); w3.addStyle('.sf-cat.personal','display','inline-block'); w3.removeClass('.sf-cat','shown'); w3.addClass('.sf-cat.personal','shown');">Personal</button>
+            <button class="sfed-button sfed-purple"
+                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','none'); sfed.addStyle('.sf-cat.business','display','inline-block'); sfed.removeClass('.sf-cat','shown'); sfed.addClass('.sf-cat.business','shown');">Business</button>
+            <p>Text</p>
+
+            <button class="sfed-button sfed-teal"
+                onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','none'); sfed.addStyle('.sf-cat.personal','display','inline-block'); sfed.removeClass('.sf-cat','shown'); sfed.addClass('.sf-cat.personal','shown');">Personal</button>
         </div>
-        <div class="w3-rest w3-container w3-green" style="height: 100vh; padding: 0px 0px 10px 0px;">
-            <div class="w3-container w3-grey" style="padding: 10px 0px 10px 20px;">
+        <div class="sfed-rest sfed-container sfed-green" style="height: 100vh; padding: 0px 0px 10px 0px;">
+            <div class="sfed-container sfed-grey" style="padding: 10px 0px 10px 20px;">
 
-                <button class="w3-btn w3-white w3-border w3-border-blue w3-round"
-                    onclick="w3.addStyle('.sf-type','display','inline-block'); w3.addStyle('.sf-cat','display','inline-block'); w3.removeClass('.sf-type','shown'); w3.addClass('.sf-type','shown');">Overview</button>
+                <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round"
+                    onclick="sfed.addStyle('.sf-type','display','inline-block'); sfed.addStyle('.sf-cat','display','inline-block'); sfed.removeClass('.sf-type','shown'); sfed.addClass('.sf-type','shown');">Overview</button>
 
-                <button class="w3-btn w3-white w3-border w3-border-blue w3-round sf-type task"
-                    onclick="w3.addStyle('.sf-type.shown.main-card','display','none'); w3.addStyle('.sf-type.task.shown.main-card','display','inline-block');">Tasks</button>
-
-
-                <button class="w3-btn w3-white w3-border w3-border-green w3-round-xlarge sf-type document"
-                    onclick="w3.addStyle('.sf-type.shown.main-card','display','none'); w3.addStyle('.sf-type.document.shown.main-card','display','inline-block');">Documents</button>
+                <button class="sfed-btn sfed-white sfed-border sfed-border-blue sfed-round sf-type task"
+                    onclick="sfed.addStyle('.sf-type.shown.main-card','display','none'); sfed.addStyle('.sf-type.task.shown.main-card','display','inline-block');">Tasks</button>
 
 
-                <button class="w3-btn w3-white w3-border w3-border-red w3-text-red w3-round-large sf-type note"
-                    onclick="w3.addStyle('.sf-type.shown.main-card','display','none'); w3.addStyle('.sf-type.note.shown.main-card','display','inline-block');">Notes</button>
+                <button class="sfed-btn sfed-white sfed-border sfed-border-green sfed-round-xlarge sf-type document"
+                    onclick="sfed.addStyle('.sf-type.shown.main-card','display','none'); sfed.addStyle('.sf-type.document.shown.main-card','display','inline-block');">Documents</button>
 
 
-                <button class="w3-button w3-yellow sf-cat project"
-                    onclick="w3.addStyle('.sf-cat.shown.main-card','display','none'); w3.addStyle('.sf-cat.project.shown.main-card','display','inline-block');">Projects</button>
+                <button class="sfed-btn sfed-white sfed-border sfed-border-red sfed-text-red sfed-round-large sf-type note"
+                    onclick="sfed.addStyle('.sf-type.shown.main-card','display','none'); sfed.addStyle('.sf-type.note.shown.main-card','display','inline-block');">Notes</button>
 
 
-                <button class="w3-button w3-purple sf-cat business"
-                    onclick="w3.addStyle('.sf-cat.shown.main-card','display','none'); w3.addStyle('.sf-cat.business.shown.main-card','display','inline-block');">Business</button>
+                <button class="sfed-button sfed-yellow sf-cat project"
+                    onclick="sfed.addStyle('.sf-cat.shown.main-card','display','none'); sfed.addStyle('.sf-cat.project.shown.main-card','display','inline-block');">Projects</button>
 
 
-                <button class="w3-button w3-teal sf-cat personal"
-                    onclick="w3.addStyle('.sf-cat.shown.main-card','display','none'); w3.addStyle('.sf-cat.personal.shown.main-card','display','inline-block');">Personal</button>
+                <button class="sfed-button sfed-purple sf-cat business"
+                    onclick="sfed.addStyle('.sf-cat.shown.main-card','display','none'); sfed.addStyle('.sf-cat.business.shown.main-card','display','inline-block');">Business</button>
+
+
+                <button class="sfed-button sfed-teal sf-cat personal"
+                    onclick="sfed.addStyle('.sf-cat.shown.main-card','display','none'); sfed.addStyle('.sf-cat.personal.shown.main-card','display','inline-block');">Personal</button>
             </div>
-            <div class="w3-row w3-red tiles-area">
+            <div class="sfed-row sfed-red tiles-area">
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat project w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type task sf-cat project sfed-col m9 l6 main-card">
                     <p>Find Location</p>
-                    <h2 class="w3-yellow">Project</h2>
-                    <button class="w3-btn w3-border w3-round-small">Task</button>
+                    <h2 class="sfed-yellow">Project</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat project w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type document sf-cat project sfed-col m9 l6 main-card">
                     <p>File a request</p>
-                    <h2 class="w3-yellow">Project</h2>
+                    <h2 class="sfed-yellow">Project</h2>
 
-                    <button class="w3-btn w3-border w3-round-small">Document</button>
+                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat personal w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type note sf-cat personal sfed-col m9 l6 main-card">
                     <p>Evaluate the candidate</p>
-                    <h2 class="w3-teal">Personal</h2>
-                    <button class="w3-btn w3-border w3-round-small">Note</button>
+                    <h2 class="sfed-teal">Personal</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat business w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type task sf-cat business sfed-col m9 l6 main-card">
                     <p>Arrange speaker</p>
-                    <h2 class="w3-purple">Business</h2>
-                    <button class="w3-btn w3-border w3-round-small">Task</button>
+                    <h2 class="sfed-purple">Business</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat business w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type document sf-cat business sfed-col m9 l6 main-card">
                     <p>Module specs</p>
-                    <h2 class="w3-purple">Business</h2>
-                    <button class="w3-btn w3-border w3-round-small">Document</button>
+                    <h2 class="sfed-purple">Business</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat project w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type note sf-cat project sfed-col m9 l6 main-card">
                     <p>Book a dinner</p>
-                    <h2 class="w3-yellow">Project</h2>
-                    <button class="w3-btn w3-border w3-round-small">Note</button>
+                    <h2 class="sfed-yellow">Project</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat business w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type task sf-cat business sfed-col m9 l6 main-card">
                     <p>Negotiation</p>
-                    <h2 class="w3-purple">Business</h2>
-                    <button class="w3-btn w3-border w3-round-small">Task</button>
+                    <h2 class="sfed-purple">Business</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat personal w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type document sf-cat personal sfed-col m9 l6 main-card">
                     <p>Drift checks</p>
-                    <h2 class="w3-teal">Personal</h2>
-                    <button class="w3-btn w3-border w3-round-small">Document</button>
+                    <h2 class="sfed-teal">Personal</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat project w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type note sf-cat project sfed-col m9 l6 main-card">
                     <p>The gate is open</p>
-                    <h2 class="w3-yellow">Project</h2>
-                    <button class="w3-btn w3-border w3-round-small">Note</button>
+                    <h2 class="sfed-yellow">Project</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type task sf-cat personal w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type task sf-cat personal sfed-col m9 l6 main-card">
                     <p>Do the math</p>
-                    <h2 class="w3-teal">Personal</h2>
-                    <button class="w3-btn w3-border w3-round-small">Task</button>
+                    <h2 class="sfed-teal">Personal</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Task</button>
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type document sf-cat personal w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type document sf-cat personal sfed-col m9 l6 main-card">
                     <p>Prevalence</p>
-                    <h2 class="w3-teal">Personal</h2>
-                    <button class="w3-btn w3-border w3-round-small">Document</button>
+                    <h2 class="sfed-teal">Personal</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Document</button>
 
 
                 </div>
                 <div
-                    class="w3-card w3-container w3-indigo w3-margin-bottom sf-card-dimensions sf-type note sf-cat business w3-col m9 l6 main-card">
+                    class="sfed-card sfed-container sfed-indigo sfed-margin-bottom sf-card-dimensions sf-type note sf-cat business sfed-col m9 l6 main-card">
                     <p>View essay</p>
-                    <h2 class="w3-purple">Business</h2>
-                    <button class="w3-btn w3-border w3-round-small">Note</button>
+                    <h2 class="sfed-purple">Business</h2>
+                    <button class="sfed-btn sfed-border sfed-round-small">Note</button>
 
                 </div>
             </div>
