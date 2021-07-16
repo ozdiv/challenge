@@ -21,7 +21,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-round-large{border-radius:8px}
 .sf-round-xlarge{border-radius:16px}
 .sf-container{padding:0.01em 16px}
-.sf-card-4{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.sf-card-4{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); position: relative;}
 .sf-border{border:1px solid #ccc!important}
 .sf-margin-bottom{margin-bottom:16px!important}
 .sf-right{float:right!important}
@@ -37,7 +37,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-border-blue{border-color:#2196F3!important}
 .sf-border-green{border-color:#4CAF50!important}
 .sf-border-red{border-color:#f44336!important}
-.sf-card-dimensions{height:300px;min-width:150px;max-width:300px;margin:10px 20px 10px 20px;}
+.sf-card-dimensions{height:300px;min-width:150px;max-width:300px;margin:10px 20px 10px 20px; padding:20px 10px 0px 10px;}
 .sf-label{position:relative;}
 .sf-label:before{content:"";position:absolute;left:30px;top:0;bottom:0;width:20px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath d='M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;}
 .sf-notification{position:relative;}
@@ -48,3 +48,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-circle{width:50px;height:50px;border-radius:50%;margin:15px 0px 0px 0px;}
 .sf-oval{width:150px;height:15px;border-radius:100px / 100px;margin:30px 0px 0px 30px;}
 .sf-sidenav {margin: 10px 0px 0px 40px;}
+.sf-dot{width:15px;height:15px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 10px; left: 10px;}
