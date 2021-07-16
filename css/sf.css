@@ -57,7 +57,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-card-text {color: #616161; }
 .sf-card-date {position: absolute; top: 5px; right: 15px; color: #616161; padding: 5px 0px 0px 0px; }
 .sf-btn-cat {text-align: left; padding: 10px 10px 10px 30px;}
-.sf-dot-sm{width:8px;height:8px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 14px; left: 12px;}
+.sf-dot-sm{width:8px;height:8px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 18px; left: 12px;}
 .sf-dot-sm-topnav{width:10px;height:10px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 5px; left: 12px;}
 .sf-topnav {margin: 10px 0px 0px 0px; position: relative; display: inline;}
 @media (max-width: 1500px) {.sf-dot-sm-topnav{display: none;}} 
