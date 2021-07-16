@@ -24,7 +24,8 @@
 
             <div class="sf-rest sf-container sf-white" style="padding: 20px 0px 0px 0px;">
                 <label class="sf-label">
-                    <input class="sf-input" oninput="sf.filterHTML('.tiles-area', '.main-card', this.value)" placeholder="Search">
+                    <input class="sf-input" oninput="sf.filterHTML('.tiles-area', '.main-card', this.value)"
+                        placeholder="Search">
                 </label>
                 <div class="sf-notification sf-right"></div>
             </div>
@@ -32,34 +33,40 @@
     </div>
     <div class="sf-row">
         <div class="sf-col sf-container sf-blue" style="width:300px; height: 100vh;">
-            <p> </p>
-            <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
-                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type','shown');">Overview</button>
-            <p> </p>
-            <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
-                onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.task','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.task','shown');">Tasks</button>
-
-            <div>
-
-            <button class="sf-btn sf-white sf-border sf-border-green sf-round-xlarge"
-                onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.document','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.document','shown');">Documents</button>
+            <div class="sf-sidenav">
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                    onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type','shown');">Overview</button>
             </div>
-            <div>
-            <button class="sf-btn sf-white sf-border sf-border-red sf-text-red sf-round-large"
-                onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.note','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.note','shown');">Notes</button>
+            <div class="sf-sidenav">
+
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                    onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.task','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.task','shown');">Tasks</button>
+            </div>
+
+            <div class="sf-sidenav">
+
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                    onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.document','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.document','shown');">Documents</button>
+            </div>
+            <div class="sf-sidenav">
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round"
+                    onclick="sf.addStyle('.sf-cat','display','inline-block'); sf.addStyle('.sf-type','display','none'); sf.addStyle('.sf-type.note','display','inline-block'); sf.removeClass('.sf-type','shown'); sf.addClass('.sf-type.note','shown');">Notes</button>
             </div>
             <hr>
-            <div>
+            <div class="sf-sidenav">
                 <button class="sf-button sf-yellow"
-                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.project','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.project','shown');">Projects</button>
+                    onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.project','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.project','shown');">Projects</button>
             </div>
+<div class="sf-sidenav">
 
-            <button class="sf-button sf-purple"
-                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.business','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.business','shown');">Business</button>
-                <p> </p>
+    <button class="sf-button sf-purple"
+        onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.business','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.business','shown');">Business</button>
+</div>
+<div class="sf-sidenav">
 
-            <button class="sf-button sf-teal"
-                onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.personal','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.personal','shown');">Personal</button>
+    <button class="sf-button sf-teal"
+    onclick="sf.addStyle('.sf-type','display','inline-block'); sf.addStyle('.sf-cat','display','none'); sf.addStyle('.sf-cat.personal','display','inline-block'); sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat.personal','shown');">Personal</button>
+</div>
         </div>
         <div class="sf-rest sf-container sf-light-grey" style="height: 100vh; padding: 0px 0px 10px 0px;">
             <div class="sf-container sf-light-grey" style="padding: 10px 0px 10px 20px;">
@@ -75,11 +82,11 @@
                     onclick="sf.addStyle('.sf-type.shown.main-card','display','none'); sf.addStyle('.sf-type.task.shown.main-card','display','inline-block');">Tasks</button>
 
 
-                <button class="sf-btn sf-white sf-border sf-border-green sf-round-xlarge sf-type document"
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round sf-type document"
                     onclick="sf.addStyle('.sf-type.shown.main-card','display','none'); sf.addStyle('.sf-type.document.shown.main-card','display','inline-block');">Documents</button>
 
 
-                <button class="sf-btn sf-white sf-border sf-border-red sf-text-red sf-round-large sf-type note"
+                <button class="sf-btn sf-white sf-border sf-border-blue sf-round sf-type note"
                     onclick="sf.addStyle('.sf-type.shown.main-card','display','none'); sf.addStyle('.sf-type.note.shown.main-card','display','inline-block');">Notes</button>
 
 
