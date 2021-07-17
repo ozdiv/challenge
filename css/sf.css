@@ -62,7 +62,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-topnav {margin: 10px 0px 0px 0px; position: relative; display: inline;}
 @media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
 .sf-row.top button {width: 120px;}
-.sf-sidenav-container {width: 180px;}
+.sf-sidenav-container {width: 170px;}
 .sf-logo, .sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: none;}
 @media (min-width:768px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
 @media (min-width:768px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
