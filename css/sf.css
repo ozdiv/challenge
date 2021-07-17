@@ -49,7 +49,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-input{padding:10px 30px;margin:0px 0px 20px 20px;width:300px;}
 .sf-circle{width:50px;height:50px;border-radius:50%;margin:15px 0px 0px 0px;}
 .sf-oval{width:150px;height:15px;border-radius:100px / 100px;margin:30px 0px 0px 30px;}
-.sf-sidenav {margin: 10px 0px 0px 10px; position: relative;}
+.sf-sidenav {margin: 10px 0px 0px 0px; position: relative;}
 .sf-sidenav > button {font-size: 15px; border: none !important;}
 .sf-dot{width:15px;height:15px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 10px; left: 10px;}
 .sf-bottom-middle {position: absolute; bottom: 10px; width: 94%;}
