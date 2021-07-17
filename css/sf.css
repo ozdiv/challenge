@@ -6,7 +6,7 @@ html{overflow-x:hidden}
 h2{font-size:30px}
 h2{font-family: 'Roboto', sans-serif;font-weight:400;margin:10px 0}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
-.sf-btn {width: 150px; margin-right: 10px;}
+.sf-btn {width: 100px; margin-right: 0px;}
 .sf-btn,.sf-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 .sf-btn,.sf-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
@@ -62,7 +62,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-topnav {margin: 10px 0px 0px 0px; position: relative; display: inline;}
 @media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
 .sf-row.top button {width: 120px;}
-.sf-sidenav-container {width: 170px;}
+.sf-sidenav-container {width: 150px;}
 .sf-logo, .sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: none;}
 @media (min-width:768px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
 @media (min-width:768px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
@@ -70,3 +70,5 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media (min-width:768px){html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}}
 @media (min-width:768px){.sf-sidenav > button {font-size: 20px;}}
 @media (min-width:768px){.sf-card-dimensions{height:300px;min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
+@media (min-width:768px){.sf-btn {width: 150px; margin-right: 10px;}}
+
