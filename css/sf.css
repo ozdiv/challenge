@@ -53,12 +53,12 @@ input:focus {outline: none;}
 .sf-card-title {font-size: x-large; color: #616161; padding: 5px 0px 0px 0px; }
 .sf-card-text {color: #616161; }
 .sf-card-date {position: absolute; top: 5px; right: 15px; color: #616161; padding: 5px 0px 0px 0px; }
-.sf-btn-cat {text-align: left; padding: 10px 10px 10px 30px;}
+.sf-btn-cat, .sf-btn-task {text-align: left; padding: 10px 10px 10px 30px;}
 .sf-dot-sm{width:8px;height:8px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 18px; left: 12px;}
-.sf-dot-sm-topnav{width:10px;height:10px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 5px; left: 12px; display: none;}
+.sf-dot-sm-topnav{width:10px;height:10px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 2px; left: 12px; display: none;}
 .sf-topnav {margin: 10px 0px 0px 0px; position: relative; display: inline;}
 @media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
-.sf-row.top button {width: 120px;}
+.sf-row.top button {width: 140px; font-size: 20px; padding: 10px 10px 10px 30px; color: #616161}
 .sf-sidenav-container {width: 150px;}
 .sf-logo, .sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: none;}
 @media (min-width:1024px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
@@ -68,6 +68,6 @@ input:focus {outline: none;}
 @media (min-width:1024px){.sf-sidenav > button {font-size: 20px; width: 200px;}}
 @media (min-width:1024px){.sf-card-dimensions{height:300px; min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
 @media (min-width:1024px){button.sf-bottom-middle {width: 260px; margin-right: 10px;}}
-.sf-btn-cat.sf-cat { border-style: outset; border-color: transparent;}
-.sf-btn-cat.sf-cat:hover { background-color: #e6e6e6;}
-.sf-btn-cat.sf-cat:active { background-color: #ffffff;}
+.sf-btn-cat.sf-cat, .sf-btn-task { border-style: outset; border-color: transparent;}
+.sf-btn-cat.sf-cat:hover, .sf-btn-task:hover { background-color: #e6e6e6;}
+.sf-btn-cat.sf-cat:active, .sf-btn-task:active { background-color: #ffffff;}
