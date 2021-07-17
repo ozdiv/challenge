@@ -61,7 +61,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-topnav {margin: 10px 0px 0px 0px; position: relative; display: inline;}
 @media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
 .sf-row.top button {width: 120px;}
-.sf-sidenav-container {width: 210px; height: 100vh;}
+.sf-sidenav-container {width: 210px;}
 .sf-logo, .sf-notification {display: none;}
 @media (min-width:601px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
 @media (min-width:601px){.sf-notification {display: block;}}
