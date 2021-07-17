@@ -64,13 +64,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-row.top button {width: 120px;}
 .sf-sidenav-container {width: 150px;}
 .sf-logo, .sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: none;}
-@media (min-width:768px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
-@media (min-width:768px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
-@media (min-width:768px){.sf-sidenav {margin: 10px 0px 0px 40px; position: relative;}}
-@media (min-width:768px){html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}}
-@media (min-width:768px){.sf-sidenav > button {font-size: 20px; width: 200px;}}
-@media (min-width:768px){.sf-card-dimensions{height:300px; min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
-@media (min-width:768px){button.sf-bottom-middle {width: 260px; margin-right: 10px;}}
+@media (min-width:1024px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
+@media (min-width:1024px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
+@media (min-width:1024px){.sf-sidenav {margin: 10px 0px 0px 40px; position: relative;}}
+@media (min-width:1024px){html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}}
+@media (min-width:1024px){.sf-sidenav > button {font-size: 20px; width: 200px;}}
+@media (min-width:1024px){.sf-card-dimensions{height:300px; min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
+@media (min-width:1024px){button.sf-bottom-middle {width: 260px; margin-right: 10px;}}
 .sf-btn-cat.sf-cat { border-style: outset; border-color: transparent;}
 .sf-btn-cat.sf-cat:hover { background-color: #e6e6e6;}
 .sf-btn-cat.sf-cat:active { background-color: #ffffff;}
