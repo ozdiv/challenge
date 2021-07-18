@@ -67,7 +67,7 @@ sf.countCards = function () {
       else if (document.querySelectorAll('.madeIt').length === 1) {
         document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} result`
       }       
-      else if (document.querySelectorAll('.madeIt').length === 12) {
+      else if (document.querySelectorAll('.madeIt').length === document.querySelectorAll('.main-card').length) {
         document.getElementById("noHit").innerHTML = ``
       }       
       else {document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} results`}
