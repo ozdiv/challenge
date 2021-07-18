@@ -6,7 +6,7 @@ sf.addStyle = function (sel, prop, val) {
 };
 sf.styleElements = function (elements, prop, val) {
   var i, l = elements.length;
-  for (i = 0; i < l; i++) {    
+  for (i = 0; i < l; i++) {
     sf.styleElement(elements[i], prop, val);
   }
 };
@@ -28,7 +28,7 @@ sf.addClassElement = function (element, name) {
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
   }
 };
 sf.removeClass = function (sel, name) {
@@ -46,7 +46,7 @@ sf.removeClassElement = function (element, name) {
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
   }
   element.className = arr1.join(" ");
@@ -58,7 +58,19 @@ sf.getElements = function (id) {
     return document.querySelectorAll(id);
   }
 };
-sf.filterHTML = function(id, sel, filter) {
+sf.countCards = function () {
+  setTimeout(
+    function () {
+      if (document.querySelectorAll('.madeIt').length === 0) {
+        document.getElementById("noHit").innerHTML = `No results found`
+      } 
+      else if (document.querySelectorAll('.madeIt').length === 1) {
+        document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} result`
+      }       
+      else {document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} results`}
+    }, 50);
+}
+sf.filterHTML = function (id, sel, filter) {
   var a, b, c, i, ii, iii, hit;
   a = sf.getElements(id);
   for (i = 0; i < a.length; i++) {
@@ -76,8 +88,10 @@ sf.filterHTML = function(id, sel, filter) {
       }
       if (hit == 1) {
         b[ii].style.display = "";
+        b[ii].classList.add('madeIt');
       } else {
         b[ii].style.display = "none";
+        b[ii].classList.remove('madeIt');
       }
     }
   }

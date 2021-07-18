@@ -20,7 +20,7 @@
             </div>
             <div class="sf-rest sf-container sf-white" style="padding: 20px 0px 0px 0px;">
                 <label class="sf-label">
-                    <input class="sf-input" oninput="sf.filterHTML('.tiles-area', '.main-card', this.value); sf.addStyle('.sf-btn','display',''); sf.addStyle('.sf-dot-sm-topnav','display',''); sf.addStyle('.sf-sidenav button','color','');  sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat','shown');"
+                    <input class="sf-input" oninput="sf.filterHTML('.tiles-area', '.main-card', this.value); sf.addStyle('.sf-btn','display',''); sf.addStyle('.sf-dot-sm-topnav','display',''); sf.addStyle('.sf-sidenav button','color','');  sf.removeClass('.sf-cat','shown'); sf.addClass('.sf-cat','shown'); sf.countCards();"
                         placeholder="Search">
                 </label>
                 <div class="sf-notification sf-right"></div>
@@ -96,6 +96,7 @@
                 </div>
             </div>
             <div class="sf-row sf-light-grey tiles-area">
+                <div id="noHit"></div>
                 <div
                     class="sf-card-4 shown sf-round sf-container sf-white sf-margin-bottom sf-card-dimensions sf-type task sf-cat project sf-col m9 l6 main-card">
                     <h2 class="sf-card-title">Find Location</h2>
