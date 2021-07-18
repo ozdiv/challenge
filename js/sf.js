@@ -62,10 +62,13 @@ sf.countCards = function () {
   setTimeout(
     function () {
       if (document.querySelectorAll('.madeIt').length === 0) {
-        document.getElementById("noHit").innerHTML = `No results found`
+        document.getElementById("noHit").innerHTML = `No results found for ${document.querySelector('.sf-input').value}`
       } 
       else if (document.querySelectorAll('.madeIt').length === 1) {
         document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} result`
+      }       
+      else if (document.querySelectorAll('.madeIt').length === 12) {
+        document.getElementById("noHit").innerHTML = ``
       }       
       else {document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} results`}
     }, 50);

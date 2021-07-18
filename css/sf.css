@@ -72,3 +72,4 @@ input:focus {outline: none;}
 .sf-btn-cat.sf-cat:hover, .sf-btn-task:hover, .sf-btn-create:hover { background-color: #e6e6e6;}
 .sf-btn-cat.sf-cat:active, .sf-btn-task:active, .sf-btn-create:active { background-color: #ffffff;}
 .sf-btn-task.sf-type.document {padding-left: 5px;}
+#noHit {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 20px; font-size: 20px; color: #616161 !important}
