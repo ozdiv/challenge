@@ -1,8 +1,6 @@
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;}
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0;}
-html,body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2}
-html{overflow-x:hidden}
+html{overflow-x:hidden;box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2;margin:0;}
+*,*:before,*:after{box-sizing:inherit;}
 .sf-btn {width: 100px; margin-right: 0px;}
 .sf-btn{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
