@@ -62,7 +62,7 @@ sf.countCards = function () {
   setTimeout(
     function () {
       if (document.querySelectorAll('.madeIt').length === 0) {
-        document.getElementById("noHit").innerHTML = `No results found for ${document.querySelector('.sf-input').value}`
+        document.getElementById("noHit").innerHTML = `No results found for "<span id="inputValue">${document.querySelector('.sf-input').value}</span>"`
       } 
       else if (document.querySelectorAll('.madeIt').length === 1) {
         document.getElementById("noHit").innerHTML = `Found ${document.querySelectorAll('.madeIt').length} result`
