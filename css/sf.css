@@ -3,8 +3,7 @@ body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2;margin:0;}
 *,*:before,*:after{box-sizing:inherit;}
 @media (min-width:600px){.sf-half{width:50%}.sf-col.m9{width:75%}}
 @media (min-width:1000px){.sf-col.l6{width:50%}}
-.sf-btn{width: 100px; margin-right: 0px;border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.sf-btn{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.sf-btn{width: 100px; margin-right: 0px;border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 .sf-btn:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
 .sf-btn:disabled:hover{box-shadow:none}
@@ -35,9 +34,9 @@ body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2;margin:0;}
 .sf-notification:before{content:"";position:absolute;right:80px;top:0;bottom:0;width:50px;height:50px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30' fill-rule='evenodd'%3E%3Cpath fill='grey' d='M15 19a3 3 0 0 1-6 0H4a1 1 0 0 1 0-2h1v-6a7 7 0 0 1 4.02-6.34 3 3 0 0 1 5.96 0A7 7 0 0 1 19 11v6h1a1 1 0 0 1 0 2h-5zm-4 0a1 1 0 0 0 2 0h-2zm0-12.9A5 5 0 0 0 7 11v6h10v-6a5 5 0 0 0-4-4.9V5a1 1 0 0 0-2 0v1.1z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;}
 .sf-plus{position:relative;margin:0px 70px 0px 0px;}
 .sf-plus:before{content:"";position:absolute;right:110px;top: 7px;bottom:0;width:50px;height:42px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30' fill-rule='evenodd'%3E%3Cpath fill='grey' d='M17 11a1 1 0 0 1 0 2h-4v4a1 1 0 0 1-2 0v-4H7a1 1 0 0 1 0-2h4V7a1 1 0 0 1 2 0v4h4z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;}
-.sf-input{padding:10px 0px 10px 0px;margin:0px 0px 20px 60px;width:80%; height: 45px; border: 0; font-size:24px; color: #7F7F7F}
+.sf-input{padding:10px 0px 10px 0px;margin:0px 0px 20px 60px;width:80%; height: 45px; border: 0; font-size:24px; color:#7F7F7F}
 .sf-input::placeholder{font-size: 24px}
-input:focus {outline: none;}
+.sf-input:focus {outline: none;}
 .sf-circle{width:50px;height:50px;border-radius:50%;margin:15px 0px 0px 0px;}
 .sf-oval{width:150px;height:15px;border-radius:100px / 100px;margin:30px 0px 0px 30px;}
 .sf-sidenav {margin: 10px 0px 0px 0px; position: relative;}
