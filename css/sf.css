@@ -1,16 +1,12 @@
 html{overflow-x:hidden;box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2;margin:0;}
 *,*:before,*:after{box-sizing:inherit;}
-.sf-btn {width: 100px; margin-right: 0px;}
-.sf-btn{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.sf-btn{width: 100px; margin-right: 0px;border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
-.sf-btn{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .sf-btn:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
 .sf-btn:disabled:hover{box-shadow:none}
 .sf-container:after,.sf-container:before,.sf-row:after,.sf-row:before{content:"";display:table;clear:both}
 .sf-col,.sf-half{float:left;width:100%}
-@media (min-width:601px){.sf-half{width:49.99999%}.sf-col.m9{width:74.99999%}}
-@media (min-width:993px){.sf-col.l6{width:49.99999%}}
 .sf-rest{overflow:hidden}
 .sf-round-small{border-radius:2px}
 .sf-round{border-radius:4px}
@@ -52,10 +48,18 @@ input:focus {outline: none;}
 .sf-dot-sm{width:8px;height:8px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 18px; left: 12px;}
 .sf-dot-sm-topnav{width:10px;height:10px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 2px; left: 12px; display: none;}
 .sf-topnav {margin: 10px 0px 0px 0px; position: relative; display: inline;}
-@media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
 .sf-row.top button {width: 140px; font-size: 20px; padding: 10px 10px 10px 30px; color: #616161}
 .sf-sidenav-container {width: 150px;}
 .sf-logo, .sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: none;}
+.sf-btn-cat.sf-cat, .sf-btn-task, .sf-btn-create { border-style: outset; border-color: transparent; cursor: pointer;}
+.sf-btn-cat.sf-cat:hover, .sf-btn-task:hover, .sf-btn-create:hover { background-color: #e6e6e6;}
+.sf-btn-cat.sf-cat:active, .sf-btn-task:active, .sf-btn-create:active { background-color: #ffffff;}
+.sf-btn-task.sf-type.document {padding-left: 5px;}
+#noHit {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 20px; font-size: 20px; color: #616161 !important}
+#inputValue {color: #000; font-size: 26px !important;}
+@media (min-width:601px){.sf-half{width:49.99999%}.sf-col.m9{width:74.99999%}}
+@media (min-width:993px){.sf-col.l6{width:49.99999%}}
+@media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
 @media (min-width:1024px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
 @media (min-width:1024px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
 @media (min-width:1024px){.sf-sidenav {margin: 10px 0px 0px 40px; position: relative;}}
@@ -63,9 +67,3 @@ input:focus {outline: none;}
 @media (min-width:1024px){.sf-sidenav > button {font-size: 20px; width: 200px;}}
 @media (min-width:1024px){.sf-card-dimensions{height:300px; min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
 @media (min-width:1024px){button.sf-bottom-middle {width: 260px; margin-right: 10px;}}
-.sf-btn-cat.sf-cat, .sf-btn-task, .sf-btn-create { border-style: outset; border-color: transparent; cursor: pointer;}
-.sf-btn-cat.sf-cat:hover, .sf-btn-task:hover, .sf-btn-create:hover { background-color: #e6e6e6;}
-.sf-btn-cat.sf-cat:active, .sf-btn-task:active, .sf-btn-create:active { background-color: #ffffff;}
-.sf-btn-task.sf-type.document {padding-left: 5px;}
-#noHit {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 20px; font-size: 20px; color: #616161 !important}
-#inputValue {color: #000; font-size: 26px !important;}
