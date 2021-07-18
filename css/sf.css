@@ -3,9 +3,6 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0;}
 html,body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2}
 html{overflow-x:hidden}
-h2{font-size:30px}
-h2{font-family: 'Roboto', sans-serif;font-weight:400;margin:10px 0}
-hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sf-btn {width: 100px; margin-right: 0px;}
 .sf-btn{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
@@ -50,7 +47,7 @@ input:focus {outline: none;}
 .sf-sidenav > button {font-size: 15px; border: none !important;}
 .sf-dot{width:15px;height:15px;border-radius:50%;margin:0px 0px 0px 0px; position: absolute; top: 10px; left: 10px;}
 .sf-bottom-middle {position: absolute; bottom: 10px; width: 94%;}
-.sf-card-title {font-size: x-large; color: #616161; padding: 5px 0px 0px 0px; }
+.sf-card-title {font-size: x-large; color: #616161; padding: 5px 0px 0px 0px;font-weight:400;margin:10px 0;}
 .sf-card-text {color: #616161; }
 .sf-card-date {position: absolute; top: 5px; right: 15px; color: #616161; padding: 5px 0px 0px 0px; }
 .sf-btn-cat, .sf-btn-task {text-align: left; padding: 10px 10px 10px 30px;}
