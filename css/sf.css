@@ -1,7 +1,10 @@
 html{overflow-x:hidden;box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{font-family: 'Roboto', sans-serif;font-size:12px;line-height:1.2;margin:0;}
 *,*:before,*:after{box-sizing:inherit;}
-.sf-btn{width: 100px; margin-right: 0px;border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+@media (min-width:600px){.sf-half{width:50%}.sf-col.m9{width:75%}}
+@media (min-width:1000px){.sf-col.l6{width:50%}}
+.sf-btn{width: 100px; margin-right: 0px;border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.sf-btn{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .sf-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 .sf-btn:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
 .sf-btn:disabled:hover{box-shadow:none}
@@ -57,13 +60,11 @@ input:focus {outline: none;}
 .sf-btn-task.sf-type.document {padding-left: 5px;}
 #noHit {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 20px; font-size: 20px; color: #616161 !important}
 #inputValue {color: #000; font-size: 26px !important;}
-@media (min-width:601px){.sf-half{width:49.99999%}.sf-col.m9{width:74.99999%}}
-@media (min-width:993px){.sf-col.l6{width:49.99999%}}
-@media (min-width: 1500px) {.sf-dot-sm-topnav{display: inline-block;}} 
-@media (min-width:1024px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
-@media (min-width:1024px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
-@media (min-width:1024px){.sf-sidenav {margin: 10px 0px 0px 40px; position: relative;}}
-@media (min-width:1024px){html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}}
-@media (min-width:1024px){.sf-sidenav > button {font-size: 20px; width: 200px;}}
-@media (min-width:1024px){.sf-card-dimensions{height:300px; min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
-@media (min-width:1024px){button.sf-bottom-middle {width: 260px; margin-right: 10px;}}
+@media (min-width:1500px){.sf-dot-sm-topnav{display: inline-block;}} 
+@media (min-width:1000px){.sf-sidenav-container, .sf-logo {width: 300px; display: block;}}
+@media (min-width:1000px){.sf-notification, .sf-notification::before, .sf-plus, .sf-plus::before, .sf-row.top {display: block;}}
+@media (min-width:1000px){.sf-sidenav {margin: 10px 0px 0px 40px; position: relative;}}
+@media (min-width:1000px){html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}}
+@media (min-width:1000px){.sf-sidenav > button {font-size: 20px; width: 200px;}}
+@media (min-width:1000px){.sf-card-dimensions{height:300px; min-width:150px;max-width:280px;margin:10px 20px 10px 20px; padding:20px 12px 0px 12px;}}
+@media (min-width:1000px){button.sf-bottom-middle {width: 260px; margin-right: 10px;}}
